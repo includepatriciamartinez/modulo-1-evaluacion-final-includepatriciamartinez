@@ -1,7 +1,11 @@
 body {
-  padding: 2rem;
-  height: 100vh;
-  background: url("../images/logo-adalab.png") center center no-repeat
-    $color-white;
-  font-family: $font-main;
+  display: block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }

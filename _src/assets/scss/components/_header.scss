@@ -1,5 +1,53 @@
-.page__header {
+.header {
+  height: 100vh;
+  padding: 254px 15px 53px 15px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  background: url("../images/cover.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.icon-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 15px 14px;
+  background-color: #0271bc;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  width: 290px;
+  height: 110px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  font-family: RobotoSlab;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  width: 290px;
+  height: 21px;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.go-footer {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: white;
 }
