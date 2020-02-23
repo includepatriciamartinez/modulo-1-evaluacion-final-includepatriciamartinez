@@ -1,11 +1,12 @@
 .section-secondary {
+  padding: 30px 15px 60px 15px;
   display: grid;
   background-color: #eff9ff;
 }
 
 .section-secondary-title {
   grid-column: 1 / 12;
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
@@ -15,7 +16,7 @@
 
 .section-secondary-box-title {
   height: 30px;
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.67;
