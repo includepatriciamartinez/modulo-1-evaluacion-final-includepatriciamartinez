@@ -1,6 +1,5 @@
 .header {
-  height: 100vh;
-  padding: 254px 15px 53px 15px;
+  padding: 284px 15px 53px 15px;
   display: flex;
   flex-direction: column;
   background: url("../images/cover.jpg") center center no-repeat;
@@ -35,8 +34,6 @@
 }
 
 .hero-text {
-  width: 290px;
-  height: 21px;
   padding-top: 10px;
   padding-bottom: 45px;
   font-family: Roboto;
@@ -45,9 +42,11 @@
   color: white;
 }
 
-.go-footer {
+.btn-header {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: white;
+  display: flex;
+  justify-content: center;
 }

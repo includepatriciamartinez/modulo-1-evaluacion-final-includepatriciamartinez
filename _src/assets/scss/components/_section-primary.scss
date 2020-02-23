@@ -6,8 +6,6 @@
 }
 
 .section-primary-subtitle {
-  width: 90px;
-  height: 30px;
   padding-bottom: 1px;
   font-family: Roboto;
   font-size: 14px;
@@ -16,8 +14,6 @@
 }
 
 .section-primary-title {
-  width: 290px;
-  height: 60px;
   padding-bottom: 15px;
   font-family: RobotoSlab;
   font-size: 24px;
@@ -27,8 +23,6 @@
 }
 
 .section-primary-text {
-  width: 290px;
-  height: 120px;
   padding-bottom: 30px;
   font-family: Roboto;
   font-size: 18px;
@@ -44,8 +38,11 @@
 }
 
 .go-text {
+  width: 25px;
+  height: 45px;
   font-family: Roboto;
   font-size: 20px;
+  font-weight: 500;
   line-height: 2.25;
   text-align: center;
   color: #f26002;

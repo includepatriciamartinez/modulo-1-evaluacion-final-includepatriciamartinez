@@ -1,0 +1,63 @@
+.section-secondary {
+  display: grid;
+  background-color: #eff9ff;
+}
+
+.section-secondary-title {
+  grid-column: 1 / 12;
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: black;
+}
+
+.section-secondary-box-title {
+  height: 30px;
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+  color: black;
+}
+
+.section-secondary-box-text {
+  height: 63px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: black;
+}
+
+.section-secondary-box1 {
+  grid-column: 1 / 12;
+}
+
+.section-secondary-box2 {
+  grid-column: 1 / 12;
+}
+
+.section-secondary-box3 {
+  grid-column: 1 / 12;
+}
+
+.more-reasons {
+  grid-column: 1 / 12;
+}
+
+@media all and (min-width: 768px) {
+  .section-secondary-box1 {
+    grid-column: 1 / 4;
+  }
+
+  .section-secondary-box2 {
+    grid-column: 4 / 8;
+  }
+
+  .section-secondary-box3 {
+    grid-column: 8 / 12;
+  }
+}
