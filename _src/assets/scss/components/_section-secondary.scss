@@ -5,7 +5,7 @@
 }
 
 .section-secondary-title {
-  grid-column: 1 / 12;
+  grid-column: span 4;
   font-family: Roboto Slab;
   font-size: 24px;
   font-weight: bold;
@@ -34,19 +34,34 @@
 }
 
 .section-secondary-box1 {
-  grid-column: 1 / 12;
+  grid-column: span 4;
 }
 
 .section-secondary-box2 {
-  grid-column: 1 / 12;
+  grid-column: span 4;
 }
 
 .section-secondary-box3 {
-  grid-column: 1 / 12;
+  grid-column: span 4;
 }
 
-.more-reasons {
-  grid-column: 1 / 12;
+.more-reasons-button {
+  grid-column: span 4;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+}
+
+.more-reasons-text {
+  width: 124px;
+  height: 45px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+  color: white;
 }
 
 @media all and (min-width: 768px) {

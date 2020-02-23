@@ -1,5 +1,5 @@
 .container-footer {
-  padding: 60px 15px 45px 15px;
+  padding: 60px 15px 60px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,14 +7,16 @@
   background-color: #304268;
 }
 
-a {
+.nav-link {
   color: white;
   text-decoration: none;
 }
 
 .btn-footer {
   position: relative;
-  top: -75px;
+  top: -80px;
+  display: flex;
+  justify-content: center;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -29,8 +31,6 @@ a {
 }
 
 .nav-content-list {
-  width: 73px;
-  height: 150px;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.88;
@@ -39,8 +39,7 @@ a {
 }
 
 .nav-social-list {
-  width: 147px;
-  height: 90px;
+  padding-top: 30px;
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.88;
@@ -49,8 +48,7 @@ a {
 }
 
 .copy {
-  width: 290px;
-  height: 30px;
+  padding-top: 30px;
   font-family: Roboto;
   font-size: 14px;
   line-height: 2.14;
