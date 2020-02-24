@@ -2,38 +2,37 @@
   padding: 30px 15px 45px 15px;
   display: flex;
   flex-direction: column;
-}
 
-.section-primary-subtitle {
-  padding-bottom: 1px;
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 2.14;
-  color: #8ccbea;
-}
+  .subtitle {
+    padding-bottom: 1px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #8ccbea;
+  }
 
-.section-primary-title {
-  padding-bottom: 15px;
-  font-family: Roboto Slab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  color: black;
-}
-
-.section-primary-text {
-  padding-bottom: 30px;
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 1.67;
-  color: #4a4a4a;
+  .title {
+    padding-bottom: 15px;
+    font-family: Roboto Slab;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: black;
+  }
+  .text {
+    padding-bottom: 30px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #4a4a4a;
+  }
 }
 
 .go-button {
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
-  border: solid 2px #f26002;
+  border: solid 2px $colorOrange;
 }
 
 .go-text {
@@ -44,7 +43,7 @@
   font-weight: 500;
   line-height: 2.25;
   text-align: center;
-  color: #f26002;
+  color: $colorOrange;
 }
 
 @media all and (min-width: 768px) {

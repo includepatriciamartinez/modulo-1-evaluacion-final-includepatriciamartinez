@@ -19,70 +19,74 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.hero-title {
-  width: 290px;
-  height: 110px;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  font-family: Roboto Slab;
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 1.31;
-  text-align: center;
-  color: white;
-}
+  &-title {
+    width: 290px;
+    height: 110px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    font-family: $fontSecondary;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.31;
+    text-align: center;
+    color: $colorWhite;
+  }
 
-.hero-text {
-  padding-top: 10px;
-  padding-bottom: 45px;
-  font-family: Roboto;
-  font-size: 16px;
-  text-align: center;
-  color: white;
+  .text {
+    padding-top: 10px;
+    padding-bottom: 45px;
+    font-family: $fontMain;
+    font-size: 16px;
+    text-align: center;
+    color: $colorWhite;
+  }
 }
 
 .btn-header {
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: white;
+  background-color: $colorWhite;
   display: flex;
   justify-content: center;
 }
 
 @media all and (min-width: 768px) {
-  .hero-title {
-    width: 690px;
-    height: 212px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    font-family: Roboto Slab;
-    font-size: 80px;
-    line-height: 1.33;
-  }
+  .hero {
+    &-title {
+      width: 690px;
+      height: 212px;
+      text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+      font-family: $fontSecondary;
+      font-size: 80px;
+      line-height: 1.33;
+    }
 
-  .hero-text {
-    width: 360px;
-    height: 32px;
-    font-family: Roboto;
-    font-size: 24px;
+    .text {
+      width: 360px;
+      height: 32px;
+      font-family: $fontMain;
+      font-size: 24px;
+    }
   }
 }
 
 @media all and (min-width: 1200px) {
-  .hero-title {
-    width: 730px;
-    height: 264px;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    font-family: Roboto Slab;
-    font-size: 100px;
-    line-height: 1.32;
-  }
+  .hero {
+    &-title {
+      width: 730px;
+      height: 264px;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      font-family: $fontSecondary;
+      font-size: 100px;
+      line-height: 1.32;
+    }
 
-  .hero-text {
-    width: 730px;
-    height: 32px;
-    font-family: Roboto;
-    font-size: 24px;
+    .text {
+      width: 730px;
+      height: 32px;
+      font-family: $fontMain;
+      font-size: 24px;
+    }
   }
 }
