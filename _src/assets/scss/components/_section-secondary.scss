@@ -46,11 +46,13 @@
 }
 
 .more-reasons-button {
+  margin: auto;
   grid-column: 1 / 4;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
+  text-align: center;
 }
 
 .more-reasons-text {
@@ -60,7 +62,6 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 2.25;
-  text-align: center;
   color: white;
 }
 
