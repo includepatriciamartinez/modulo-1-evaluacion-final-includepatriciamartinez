@@ -14,7 +14,7 @@
 
 .section-primary-title {
   padding-bottom: 15px;
-  font-family: RobotoSlab;
+  font-family: Roboto Slab;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
@@ -45,4 +45,16 @@
   line-height: 2.25;
   text-align: center;
   color: #f26002;
+}
+
+@media all and (min-width: 768px) {
+  .section-primary {
+    padding: 30px 39px 60px 39px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .section-primary {
+    padding: 60px 275px 60px 275px;
+  }
 }

@@ -66,6 +66,30 @@
 }
 
 @media all and (min-width: 768px) {
+  .section-secondary {
+    column-gap: 27.5px;
+    row-gap: 60px;
+  }
+
+  .section-secondary-box1 {
+    grid-column: 1 / 2;
+  }
+
+  .section-secondary-box2 {
+    grid-column: 2 / 3;
+  }
+
+  .section-secondary-box3 {
+    grid-column: 3 / 4;
+  }
+}
+
+@media all and (min-width: 1200x) {
+  .section-secondary {
+    column-gap: 26.2px;
+    row-gap: 60px;
+  }
+
   .section-secondary-box1 {
     grid-column: 1 / 2;
   }
